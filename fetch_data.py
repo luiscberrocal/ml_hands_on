@@ -1,5 +1,5 @@
 import tarfile
-import urllib
+import urllib.request
 from pathlib import Path
 
 DOWNLOAD_ROOT = 'https://raw.githubusercontent.com/ageron/handson-ml2/master'
